@@ -1,0 +1,64 @@
+namespace Tweetz.MicroServices.LiveService.Repositories
+{
+    public class LiveRepository : ILiveRepository
+    {
+        private readonly ApplicationDBContext _context;
+        private readonly IConfiguration _configuration;
+        private readonly ILogger<LiveRepository> _logger;
+
+        public LiveRepository(ApplicationDBContext context, IConfiguration configuration, ILogger<LiveRepository> logger)
+        {
+            _context = context;
+            _configuration = configuration;
+            _logger = logger;
+        }
+        // TO TEST : curl -H "Authorization: Bearer fg5iciCl24qhozuZJ3iLh2V36d6OoRrwgqDVtHolsE" https://sandbox.api.video/live-streams | jq
+        public async Task<List<Live>> GetAllAsync()
+        {
+            try
+            {
+                _logger.LogInformation("Début de la récupération des lives");
+                var basePath = _configuration["ApiVideo:ApiUrl"] + "live-streams";
+                var apiKey = _configuration["ApiVideo:ApiKey"];
+                var apiInstance = new ApiVideoClient(apiKey, basePath);
+                _logger.LogInformation("Using API key: {key}", apiKey);
+                _logger.LogInformation("Using BasePath: {basePath}", basePath);
+
+
+
+                // var streamKey = "dw-dew8-q6w9-k67w-1ws8";  // string | The unique stream key that allows you to stream videos. (optional) 
+                // var name = "My Video";  // string | You can filter live streams by their name or a part of their name. (optional) 
+                var sortBy = "createdAt";  // string | Enables you to sort live stream results. Allowed attributes: `name`, `createdAt`, `updatedAt`. `name` - the name of the live stream. `createdAt` - the time a live stream was created. `updatedAt` - the time a live stream was last updated.  When using `createdAt` or `updatedAt`, the API sorts the results based on the ATOM UTC time format.  (optional) 
+                // var sortOrder = "desc";  // string | Allowed: asc, desc. Ascending for date and time means that earlier values precede later ones. Descending means that later values preced earlier ones. For title, it is 0-9 and A-Z ascending and Z-A, 9-0 descending. (optional) 
+                // var currentPage = 2;  // int? | Choose the number of search results to return per page. Minimum value: 1 (optional)  (default to 1)
+                // var pageSize = 30;  // int? | Results per page. Allowed values 1-100, default is 25. (optional)  (default to 25)
+                var apiLiveStreamsInstance = apiInstance.LiveStreams();
+                try
+                {
+                    // List all live streams
+                    // LiveStreamListResponse result = apiLiveStreamsInstance.list(streamKey, name, sortBy, sortOrder, currentPage, pageSize);
+                    _logger.LogInformation("Récupération de tous les lives depuis API.VIDEO : {url} & Key {key}", basePath, apiKey);
+                    _logger.LogInformation("ApiInstance {api}", apiInstance);
+                    LiveStreamListResponse result = apiLiveStreamsInstance.list(sortBy);
+                    _logger.LogInformation("Récupération réussie de lives depuis API.VIDEO {lives}", result.data);
+                    // _logger.LogInformation("Voici les données (JSON) : {json}",
+                    //     JsonConvert.SerializeObject(result.data, Formatting.Indented)
+                    // );
+                    Debug.WriteLine(result);
+                }
+                catch (ApiException e)
+                {
+                    _logger.LogError(e, "Erreur lors de l'appel à LiveStreamsApi.Get: {Message}", e.Message);
+                }
+
+                _logger.LogInformation("Récupération de tous les lives depuis la base de données");
+                return await _context.Lives.ToListAsync();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erreur non gérée dans GetAllAsync");
+                throw;
+            }
+        }
+    }
+}
