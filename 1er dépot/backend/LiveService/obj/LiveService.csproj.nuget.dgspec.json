@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/julien/Desktop/TFE-code-source-LiveService-TWEETZ/backend/LiveService/LiveService.csproj": {}
+    "/Users/julien/Developer/TFE-code-source-LiveService-TWEETZ/backend/LiveService/LiveService.csproj": {}
   },
   "projects": {
-    "/Users/julien/Desktop/TFE-code-source-LiveService-TWEETZ/backend/LiveService/LiveService.csproj": {
+    "/Users/julien/Developer/TFE-code-source-LiveService-TWEETZ/backend/LiveService/LiveService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/julien/Desktop/TFE-code-source-LiveService-TWEETZ/backend/LiveService/LiveService.csproj",
+        "projectUniqueName": "/Users/julien/Developer/TFE-code-source-LiveService-TWEETZ/backend/LiveService/LiveService.csproj",
         "projectName": "LiveService",
-        "projectPath": "/Users/julien/Desktop/TFE-code-source-LiveService-TWEETZ/backend/LiveService/LiveService.csproj",
+        "projectPath": "/Users/julien/Developer/TFE-code-source-LiveService-TWEETZ/backend/LiveService/LiveService.csproj",
         "packagesPath": "/Users/julien/.nuget/packages/",
-        "outputPath": "/Users/julien/Desktop/TFE-code-source-LiveService-TWEETZ/backend/LiveService/obj/",
+        "outputPath": "/Users/julien/Developer/TFE-code-source-LiveService-TWEETZ/backend/LiveService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/julien/.nuget/NuGet/NuGet.Config"
