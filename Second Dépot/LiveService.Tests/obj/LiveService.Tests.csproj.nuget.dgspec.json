@@ -1,0 +1,926 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/julien/Developer/Tweetz/LiveService.Tests/LiveService.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/julien/Developer/Tweetz/LiveService.Tests/LiveService.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/julien/Developer/Tweetz/LiveService.Tests/LiveService.Tests.csproj",
+        "projectName": "LiveService.Tests",
+        "projectPath": "/Users/julien/Developer/Tweetz/LiveService.Tests/LiveService.Tests.csproj",
+        "packagesPath": "/Users/julien/.nuget/packages/",
+        "outputPath": "/Users/julien/Developer/Tweetz/LiveService.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/julien/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/julien/Developer/Tweetz/Src/MicroServices/LiveService/LiveService.csproj": {
+                "projectPath": "/Users/julien/Developer/Tweetz/Src/MicroServices/LiveService/LiveService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBus/EventBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBus/EventBus.csproj",
+        "projectName": "EventBus",
+        "projectPath": "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBus/EventBus.csproj",
+        "packagesPath": "/Users/julien/.nuget/packages/",
+        "outputPath": "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBus/obj/",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "CentralPackageTransitivePinningEnabled": true,
+        "configFilePaths": [
+          "/Users/julien/Developer/Tweetz/Src/NuGet.Config",
+          "/Users/julien/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "centralPackageVersions": {
+            "ApiVideo": "1.6.7",
+            "Autofac": "8.1.0",
+            "AutoMapper": "13.0.1",
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+            "Azure.Core": "1.43.0",
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": "1.3.2",
+            "Azure.Identity": "1.12.0",
+            "Azure.Messaging.ServiceBus": "7.18.1",
+            "Azure.Storage.Blobs": "12.21.2",
+            "Dapper": "2.1.35",
+            "Google.Apis.Auth": "1.69.0",
+            "Google.Apis.YouTube.v3": "1.69.0.3680",
+            "Google.Protobuf": "3.28.1",
+            "Grpc.AspNetCore.Server": "2.65.0",
+            "Grpc.Tools": "2.66.0",
+            "Hangfire.AspNetCore": "1.8.14",
+            "Hangfire.Dashboard.Basic.Authentication": "7.0.1",
+            "Hangfire.SqlServer": "1.8.14",
+            "itext7": "9.1.0",
+            "JsonSubTypes": "2.0.1",
+            "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8",
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": "8.0.8",
+            "Microsoft.AspNetCore.Http": "2.2.2",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.8",
+            "Microsoft.AspNetCore.Identity.UI": "8.0.8",
+            "Microsoft.AspNetCore.OpenApi": "8.0.8",
+            "Microsoft.AspNetCore.SignalR.Common": "8.0.8",
+            "Microsoft.AspNetCore.SignalR.Core": "1.1.0",
+            "Microsoft.AspNetCore.SpaProxy": "8.0.8",
+            "Microsoft.AspNetCore.SpaServices.Extensions": "8.0.8",
+            "Microsoft.CSharp": "4.7.0",
+            "Microsoft.EntityFrameworkCore": "8.0.8",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.8",
+            "Microsoft.EntityFrameworkCore.Relational": "8.0.8",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
+            "Microsoft.EntityFrameworkCore.Tools": "8.0.8",
+            "Microsoft.Extensions.Caching.StackExchangeRedis": "9.0.0",
+            "Microsoft.Extensions.Logging": "8.0.1",
+            "Microsoft.Graph": "5.58.0",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.21.0",
+            "Mollie.Api": "4.4.0",
+            "MongoDB.Driver": "3.1.0",
+            "Moq": "4.20.72",
+            "Newtonsoft.Json": "13.0.3",
+            "Ocelot": "23.4.2",
+            "Ocelot.Provider.Polly": "23.3.3",
+            "PdfSharpCore": "1.3.67",
+            "Polly": "8.4.1",
+            "RabbitMQ.Client": "6.8.1",
+            "Realm": "20.0.0",
+            "RestSharp": "112.0.0",
+            "SixLabors.ImageSharp": "3.1.5",
+            "StackExchange.Redis": "2.8.24",
+            "Swashbuckle.AspNetCore": "6.7.3",
+            "Swashbuckle.AspNetCore.Filters": "8.0.2",
+            "System.Data.SqlClient": "4.8.6",
+            "System.Net.Http": "4.3.4",
+            "Tiny.RestClient": "1.7.1",
+            "Tweetz.Extensions.Logging": "1.2.3",
+            "TweetzLogger": "1.0.3",
+            "xunit": "2.9.3",
+            "Yoti": "3.16.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj",
+        "projectName": "EventBusRabbitMQ",
+        "projectPath": "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj",
+        "packagesPath": "/Users/julien/.nuget/packages/",
+        "outputPath": "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBusRabbitMQ/obj/",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "CentralPackageTransitivePinningEnabled": true,
+        "configFilePaths": [
+          "/Users/julien/Developer/Tweetz/Src/NuGet.Config",
+          "/Users/julien/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBus/EventBus.csproj": {
+                "projectPath": "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBus/EventBus.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.4.1, )",
+              "versionCentrallyManaged": true
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "ApiVideo": "1.6.7",
+            "Autofac": "8.1.0",
+            "AutoMapper": "13.0.1",
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+            "Azure.Core": "1.43.0",
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": "1.3.2",
+            "Azure.Identity": "1.12.0",
+            "Azure.Messaging.ServiceBus": "7.18.1",
+            "Azure.Storage.Blobs": "12.21.2",
+            "Dapper": "2.1.35",
+            "Google.Apis.Auth": "1.69.0",
+            "Google.Apis.YouTube.v3": "1.69.0.3680",
+            "Google.Protobuf": "3.28.1",
+            "Grpc.AspNetCore.Server": "2.65.0",
+            "Grpc.Tools": "2.66.0",
+            "Hangfire.AspNetCore": "1.8.14",
+            "Hangfire.Dashboard.Basic.Authentication": "7.0.1",
+            "Hangfire.SqlServer": "1.8.14",
+            "itext7": "9.1.0",
+            "JsonSubTypes": "2.0.1",
+            "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8",
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": "8.0.8",
+            "Microsoft.AspNetCore.Http": "2.2.2",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.8",
+            "Microsoft.AspNetCore.Identity.UI": "8.0.8",
+            "Microsoft.AspNetCore.OpenApi": "8.0.8",
+            "Microsoft.AspNetCore.SignalR.Common": "8.0.8",
+            "Microsoft.AspNetCore.SignalR.Core": "1.1.0",
+            "Microsoft.AspNetCore.SpaProxy": "8.0.8",
+            "Microsoft.AspNetCore.SpaServices.Extensions": "8.0.8",
+            "Microsoft.CSharp": "4.7.0",
+            "Microsoft.EntityFrameworkCore": "8.0.8",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.8",
+            "Microsoft.EntityFrameworkCore.Relational": "8.0.8",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
+            "Microsoft.EntityFrameworkCore.Tools": "8.0.8",
+            "Microsoft.Extensions.Caching.StackExchangeRedis": "9.0.0",
+            "Microsoft.Extensions.Logging": "8.0.1",
+            "Microsoft.Graph": "5.58.0",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.21.0",
+            "Mollie.Api": "4.4.0",
+            "MongoDB.Driver": "3.1.0",
+            "Moq": "4.20.72",
+            "Newtonsoft.Json": "13.0.3",
+            "Ocelot": "23.4.2",
+            "Ocelot.Provider.Polly": "23.3.3",
+            "PdfSharpCore": "1.3.67",
+            "Polly": "8.4.1",
+            "RabbitMQ.Client": "6.8.1",
+            "Realm": "20.0.0",
+            "RestSharp": "112.0.0",
+            "SixLabors.ImageSharp": "3.1.5",
+            "StackExchange.Redis": "2.8.24",
+            "Swashbuckle.AspNetCore": "6.7.3",
+            "Swashbuckle.AspNetCore.Filters": "8.0.2",
+            "System.Data.SqlClient": "4.8.6",
+            "System.Net.Http": "4.3.4",
+            "Tiny.RestClient": "1.7.1",
+            "Tweetz.Extensions.Logging": "1.2.3",
+            "TweetzLogger": "1.0.3",
+            "xunit": "2.9.3",
+            "Yoti": "3.16.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBusServiceBus/EventBusServiceBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBusServiceBus/EventBusServiceBus.csproj",
+        "projectName": "EventBusServiceBus",
+        "projectPath": "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBusServiceBus/EventBusServiceBus.csproj",
+        "packagesPath": "/Users/julien/.nuget/packages/",
+        "outputPath": "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBusServiceBus/obj/",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "CentralPackageTransitivePinningEnabled": true,
+        "configFilePaths": [
+          "/Users/julien/Developer/Tweetz/Src/NuGet.Config",
+          "/Users/julien/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBus/EventBus.csproj": {
+                "projectPath": "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBus/EventBus.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.1.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.18.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.1, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "ApiVideo": "1.6.7",
+            "Autofac": "8.1.0",
+            "AutoMapper": "13.0.1",
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+            "Azure.Core": "1.43.0",
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": "1.3.2",
+            "Azure.Identity": "1.12.0",
+            "Azure.Messaging.ServiceBus": "7.18.1",
+            "Azure.Storage.Blobs": "12.21.2",
+            "Dapper": "2.1.35",
+            "Google.Apis.Auth": "1.69.0",
+            "Google.Apis.YouTube.v3": "1.69.0.3680",
+            "Google.Protobuf": "3.28.1",
+            "Grpc.AspNetCore.Server": "2.65.0",
+            "Grpc.Tools": "2.66.0",
+            "Hangfire.AspNetCore": "1.8.14",
+            "Hangfire.Dashboard.Basic.Authentication": "7.0.1",
+            "Hangfire.SqlServer": "1.8.14",
+            "itext7": "9.1.0",
+            "JsonSubTypes": "2.0.1",
+            "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8",
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": "8.0.8",
+            "Microsoft.AspNetCore.Http": "2.2.2",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.8",
+            "Microsoft.AspNetCore.Identity.UI": "8.0.8",
+            "Microsoft.AspNetCore.OpenApi": "8.0.8",
+            "Microsoft.AspNetCore.SignalR.Common": "8.0.8",
+            "Microsoft.AspNetCore.SignalR.Core": "1.1.0",
+            "Microsoft.AspNetCore.SpaProxy": "8.0.8",
+            "Microsoft.AspNetCore.SpaServices.Extensions": "8.0.8",
+            "Microsoft.CSharp": "4.7.0",
+            "Microsoft.EntityFrameworkCore": "8.0.8",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.8",
+            "Microsoft.EntityFrameworkCore.Relational": "8.0.8",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
+            "Microsoft.EntityFrameworkCore.Tools": "8.0.8",
+            "Microsoft.Extensions.Caching.StackExchangeRedis": "9.0.0",
+            "Microsoft.Extensions.Logging": "8.0.1",
+            "Microsoft.Graph": "5.58.0",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.21.0",
+            "Mollie.Api": "4.4.0",
+            "MongoDB.Driver": "3.1.0",
+            "Moq": "4.20.72",
+            "Newtonsoft.Json": "13.0.3",
+            "Ocelot": "23.4.2",
+            "Ocelot.Provider.Polly": "23.3.3",
+            "PdfSharpCore": "1.3.67",
+            "Polly": "8.4.1",
+            "RabbitMQ.Client": "6.8.1",
+            "Realm": "20.0.0",
+            "RestSharp": "112.0.0",
+            "SixLabors.ImageSharp": "3.1.5",
+            "StackExchange.Redis": "2.8.24",
+            "Swashbuckle.AspNetCore": "6.7.3",
+            "Swashbuckle.AspNetCore.Filters": "8.0.2",
+            "System.Data.SqlClient": "4.8.6",
+            "System.Net.Http": "4.3.4",
+            "Tiny.RestClient": "1.7.1",
+            "Tweetz.Extensions.Logging": "1.2.3",
+            "TweetzLogger": "1.0.3",
+            "xunit": "2.9.3",
+            "Yoti": "3.16.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/julien/Developer/Tweetz/Src/MicroServices/CommonService/CommonService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/julien/Developer/Tweetz/Src/MicroServices/CommonService/CommonService.csproj",
+        "projectName": "CommonService",
+        "projectPath": "/Users/julien/Developer/Tweetz/Src/MicroServices/CommonService/CommonService.csproj",
+        "packagesPath": "/Users/julien/.nuget/packages/",
+        "outputPath": "/Users/julien/Developer/Tweetz/Src/MicroServices/CommonService/obj/",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "CentralPackageTransitivePinningEnabled": true,
+        "configFilePaths": [
+          "/Users/julien/Developer/Tweetz/Src/NuGet.Config",
+          "/Users/julien/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBus/EventBus.csproj": {
+                "projectPath": "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBus/EventBus.csproj"
+              },
+              "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj": {
+                "projectPath": "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj"
+              },
+              "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBusServiceBus/EventBusServiceBus.csproj": {
+                "projectPath": "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBusServiceBus/EventBusServiceBus.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": {
+              "target": "Package",
+              "version": "[1.3.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.12.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "ApiVideo": "1.6.7",
+            "Autofac": "8.1.0",
+            "AutoMapper": "13.0.1",
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+            "Azure.Core": "1.43.0",
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": "1.3.2",
+            "Azure.Identity": "1.12.0",
+            "Azure.Messaging.ServiceBus": "7.18.1",
+            "Azure.Storage.Blobs": "12.21.2",
+            "Dapper": "2.1.35",
+            "Google.Apis.Auth": "1.69.0",
+            "Google.Apis.YouTube.v3": "1.69.0.3680",
+            "Google.Protobuf": "3.28.1",
+            "Grpc.AspNetCore.Server": "2.65.0",
+            "Grpc.Tools": "2.66.0",
+            "Hangfire.AspNetCore": "1.8.14",
+            "Hangfire.Dashboard.Basic.Authentication": "7.0.1",
+            "Hangfire.SqlServer": "1.8.14",
+            "itext7": "9.1.0",
+            "JsonSubTypes": "2.0.1",
+            "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8",
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": "8.0.8",
+            "Microsoft.AspNetCore.Http": "2.2.2",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.8",
+            "Microsoft.AspNetCore.Identity.UI": "8.0.8",
+            "Microsoft.AspNetCore.OpenApi": "8.0.8",
+            "Microsoft.AspNetCore.SignalR.Common": "8.0.8",
+            "Microsoft.AspNetCore.SignalR.Core": "1.1.0",
+            "Microsoft.AspNetCore.SpaProxy": "8.0.8",
+            "Microsoft.AspNetCore.SpaServices.Extensions": "8.0.8",
+            "Microsoft.CSharp": "4.7.0",
+            "Microsoft.EntityFrameworkCore": "8.0.8",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.8",
+            "Microsoft.EntityFrameworkCore.Relational": "8.0.8",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
+            "Microsoft.EntityFrameworkCore.Tools": "8.0.8",
+            "Microsoft.Extensions.Caching.StackExchangeRedis": "9.0.0",
+            "Microsoft.Extensions.Logging": "8.0.1",
+            "Microsoft.Graph": "5.58.0",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.21.0",
+            "Mollie.Api": "4.4.0",
+            "MongoDB.Driver": "3.1.0",
+            "Moq": "4.20.72",
+            "Newtonsoft.Json": "13.0.3",
+            "Ocelot": "23.4.2",
+            "Ocelot.Provider.Polly": "23.3.3",
+            "PdfSharpCore": "1.3.67",
+            "Polly": "8.4.1",
+            "RabbitMQ.Client": "6.8.1",
+            "Realm": "20.0.0",
+            "RestSharp": "112.0.0",
+            "SixLabors.ImageSharp": "3.1.5",
+            "StackExchange.Redis": "2.8.24",
+            "Swashbuckle.AspNetCore": "6.7.3",
+            "Swashbuckle.AspNetCore.Filters": "8.0.2",
+            "System.Data.SqlClient": "4.8.6",
+            "System.Net.Http": "4.3.4",
+            "Tiny.RestClient": "1.7.1",
+            "Tweetz.Extensions.Logging": "1.2.3",
+            "TweetzLogger": "1.0.3",
+            "xunit": "2.9.3",
+            "Yoti": "3.16.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/julien/Developer/Tweetz/Src/MicroServices/LiveService/LiveService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/julien/Developer/Tweetz/Src/MicroServices/LiveService/LiveService.csproj",
+        "projectName": "LiveService",
+        "projectPath": "/Users/julien/Developer/Tweetz/Src/MicroServices/LiveService/LiveService.csproj",
+        "packagesPath": "/Users/julien/.nuget/packages/",
+        "outputPath": "/Users/julien/Developer/Tweetz/Src/MicroServices/LiveService/obj/",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "CentralPackageTransitivePinningEnabled": true,
+        "configFilePaths": [
+          "/Users/julien/Developer/Tweetz/Src/NuGet.Config",
+          "/Users/julien/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBus/EventBus.csproj": {
+                "projectPath": "/Users/julien/Developer/Tweetz/Src/BuildingBlocks/EventBus/EventBus/EventBus.csproj"
+              },
+              "/Users/julien/Developer/Tweetz/Src/MicroServices/CommonService/CommonService.csproj": {
+                "projectPath": "/Users/julien/Developer/Tweetz/Src/MicroServices/CommonService/CommonService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ApiVideo": {
+              "target": "Package",
+              "version": "[1.6.7, )",
+              "versionCentrallyManaged": true
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.21.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "versionCentrallyManaged": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )",
+              "versionCentrallyManaged": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.7.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[8.0.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Tiny.RestClient": {
+              "target": "Package",
+              "version": "[1.7.1, )",
+              "versionCentrallyManaged": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "ApiVideo": "1.6.7",
+            "Autofac": "8.1.0",
+            "AutoMapper": "13.0.1",
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+            "Azure.Core": "1.43.0",
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": "1.3.2",
+            "Azure.Identity": "1.12.0",
+            "Azure.Messaging.ServiceBus": "7.18.1",
+            "Azure.Storage.Blobs": "12.21.2",
+            "Dapper": "2.1.35",
+            "Google.Apis.Auth": "1.69.0",
+            "Google.Apis.YouTube.v3": "1.69.0.3680",
+            "Google.Protobuf": "3.28.1",
+            "Grpc.AspNetCore.Server": "2.65.0",
+            "Grpc.Tools": "2.66.0",
+            "Hangfire.AspNetCore": "1.8.14",
+            "Hangfire.Dashboard.Basic.Authentication": "7.0.1",
+            "Hangfire.SqlServer": "1.8.14",
+            "itext7": "9.1.0",
+            "JsonSubTypes": "2.0.1",
+            "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8",
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": "8.0.8",
+            "Microsoft.AspNetCore.Http": "2.2.2",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.8",
+            "Microsoft.AspNetCore.Identity.UI": "8.0.8",
+            "Microsoft.AspNetCore.OpenApi": "8.0.8",
+            "Microsoft.AspNetCore.SignalR.Common": "8.0.8",
+            "Microsoft.AspNetCore.SignalR.Core": "1.1.0",
+            "Microsoft.AspNetCore.SpaProxy": "8.0.8",
+            "Microsoft.AspNetCore.SpaServices.Extensions": "8.0.8",
+            "Microsoft.CSharp": "4.7.0",
+            "Microsoft.EntityFrameworkCore": "8.0.8",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.8",
+            "Microsoft.EntityFrameworkCore.Relational": "8.0.8",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
+            "Microsoft.EntityFrameworkCore.Tools": "8.0.8",
+            "Microsoft.Extensions.Caching.StackExchangeRedis": "9.0.0",
+            "Microsoft.Extensions.Logging": "8.0.1",
+            "Microsoft.Graph": "5.58.0",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.21.0",
+            "Mollie.Api": "4.4.0",
+            "MongoDB.Driver": "3.1.0",
+            "Moq": "4.20.72",
+            "Newtonsoft.Json": "13.0.3",
+            "Ocelot": "23.4.2",
+            "Ocelot.Provider.Polly": "23.3.3",
+            "PdfSharpCore": "1.3.67",
+            "Polly": "8.4.1",
+            "RabbitMQ.Client": "6.8.1",
+            "Realm": "20.0.0",
+            "RestSharp": "112.0.0",
+            "SixLabors.ImageSharp": "3.1.5",
+            "StackExchange.Redis": "2.8.24",
+            "Swashbuckle.AspNetCore": "6.7.3",
+            "Swashbuckle.AspNetCore.Filters": "8.0.2",
+            "System.Data.SqlClient": "4.8.6",
+            "System.Net.Http": "4.3.4",
+            "Tiny.RestClient": "1.7.1",
+            "Tweetz.Extensions.Logging": "1.2.3",
+            "TweetzLogger": "1.0.3",
+            "xunit": "2.9.3",
+            "Yoti": "3.16.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

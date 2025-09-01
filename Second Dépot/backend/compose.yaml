@@ -1,0 +1,19 @@
+services:
+  dbTweetz:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: dbTweetz
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=STRING_KEY
+    ports:
+      - "5433:1433"
+    volumes:
+      - dbTweetz:/var/opt/mssql
+    healthcheck:
+      test: /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "STRING_KEY" -Q "SELECT 1" || exit 1
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  dbTweetz:
